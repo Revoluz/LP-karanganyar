@@ -1,0 +1,87 @@
+body {
+    font-family: "Plus Jakarta Sans";
+    background: linear-gradient(
+            242.63deg,
+            rgba(255, 225, 93, 0.2) 1.53%,
+            rgba(255, 178, 86, 0.06) 42.78%
+        ),
+        linear-gradient(
+            116.82deg,
+            rgba(255, 225, 93, 0.4) 0%,
+            rgba(255, 178, 86, 0.12) 44.3%
+        ),
+        #ffffff;
+    background-attachment: fixed;
+}
+.card-container .col-6 {
+    margin-top: 8px;
+}
+.logo {
+    width: 130px;
+    height: 180px;
+}
+body .container hr {
+    border-style: solid;
+    border-color: #ff8c00;
+}
+.container .btn-disparpora {
+    color: #ffff;
+}
+.card {
+    background: linear-gradient(
+            242.63deg,
+            rgba(255, 225, 93, 0.2) 1.53%,
+            rgba(255, 178, 86, 0.06) 42.78%
+        ),
+        linear-gradient(
+            116.82deg,
+            rgba(255, 225, 93, 0.4) 0%,
+            rgba(255, 178, 86, 0.12) 44.3%
+        ),
+        #ffffff;
+}
+.card img {
+    width: 64px;
+    height: 64px;
+}
+
+.card .card-body .btn:hover {
+    background-color: #6c8dfa;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-container {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    .card .card-title {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card {
+        width: 19%;
+        min-width: 340px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 19%;
+        min-width: 340px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 23%;
+        min-width: 245px;
+    }
+}
